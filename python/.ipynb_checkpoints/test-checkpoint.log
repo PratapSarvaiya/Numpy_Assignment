@@ -1,0 +1,5 @@
+INFO:root:This is my normal information about the software
+INFO:root:This is my normal information about the software
+WARNING:root:There can be empty list here
+ERROR:root:some error has happend
+CRITICAL:root:The length of list is

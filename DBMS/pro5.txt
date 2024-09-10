@@ -1,0 +1,35 @@
+CREATE TABLE `pratap_22`.`dept` (
+  `Dept_Id` INT(11) NOT NULL,
+  `Dept_name` VARCHAR(35) NOT NULL,
+  `Dept_loacation` VARCHAR(50) NOT NULL,
+  PRIMARY KEY (`Dept_Id`));
+
+
+
+depyt
+
+
+INSERT INTO `pratap_22`.`dept` (`Dept_Id`, `Dept_name`, `Dept_loacation`) VALUES ('1', 'computer', 'ahemdabad');
+INSERT INTO `pratap_22`.`dept` (`Dept_Id`, `Dept_name`, `Dept_loacation`) VALUES ('2', 'micro biology', 'sadra');
+INSERT INTO `pratap_22`.`dept` (`Dept_Id`, `Dept_name`, `Dept_loacation`) VALUES ('3', 'management', 'randheja');
+INSERT INTO `pratap_22`.`dept` (`Dept_Id`, `Dept_name`, `Dept_loacation`) VALUES ('4', 'main office', 'ahemdabad');
+
+
+emp
+
+
+
+
+INSERT INTO `pratap_22`.`emp` (`Emp_Id`, `Emp_name`, `Emp_Dept_Id`, `Emp_boss_id`, `Emp_salary`) VALUES ('101', 'Nikhil', '1', '101', '200000');
+INSERT INTO `pratap_22`.`emp` (`Emp_Id`, `Emp_name`, `Emp_Dept_Id`, `Emp_boss_id`, `Emp_salary`) VALUES ('102', 'Satish', '1', '101', '210000');
+INSERT INTO `pratap_22`.`emp` (`Emp_Id`, `Emp_name`, `Emp_Dept_Id`, `Emp_boss_id`, `Emp_salary`) VALUES ('103', 'Vrushali', '1', '101', '175000');
+INSERT INTO `pratap_22`.`emp` (`Emp_Id`, `Emp_name`, `Emp_Dept_Id`, `Emp_boss_id`, `Emp_salary`) VALUES ('201', 'archana', '2', '201', '200000');
+INSERT INTO `pratap_22`.`emp` (`Emp_Id`, `Emp_name`, `Emp_Dept_Id`, `Emp_boss_id`, `Emp_salary`) VALUES ('202', 'tanvi', '2', '201', '135000');
+INSERT INTO `pratap_22`.`emp` (`Emp_Id`, `Emp_name`, `Emp_Dept_Id`, `Emp_boss_id`, `Emp_salary`) VALUES ('203', 'dharti', '2', '201', '175000');
+INSERT INTO `pratap_22`.`emp` (`Emp_Id`, `Emp_name`, `Emp_Dept_Id`, `Emp_boss_id`, `Emp_salary`) VALUES ('301', 'himali', '3', '301', '235000');
+INSERT INTO `pratap_22`.`emp` (`Emp_Id`, `Emp_name`, `Emp_Dept_Id`, `Emp_boss_id`, `Emp_salary`) VALUES ('302', 'vishal', '3', '301', '180000');
+INSERT INTO `pratap_22`.`emp` (`Emp_Id`, `Emp_name`, `Emp_Dept_Id`, `Emp_boss_id`, `Emp_salary`) VALUES ('303', 'nafish', '3', '302', '199000');
+INSERT INTO `pratap_22`.`emp` (`Emp_Id`, `Emp_name`, `Emp_Dept_Id`, `Emp_boss_id`, `Emp_salary`) VALUES ('401', 'namrata', '4', '401', '500000');
+INSERT INTO `pratap_22`.`emp` (`Emp_Id`, `Emp_name`, `Emp_Dept_Id`, `Emp_boss_id`, `Emp_salary`) VALUES ('402', 'bipin', '4', '401', '490000');
+INSERT INTO `pratap_22`.`emp` (`Emp_Id`, `Emp_name`, `Emp_Dept_Id`, `Emp_boss_id`, `Emp_salary`) VALUES ('403', 'narendra', '4', '402', '1000000');
+INSERT INTO `pratap_22`.`emp` (`Emp_Id`, `Emp_name`, `Emp_Dept_Id`, `Emp_boss_id`, `Emp_salary`) VALUES ('404', 'mohan', '4', '402', '800000');

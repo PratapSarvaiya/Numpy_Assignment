@@ -1,0 +1,17 @@
+INSERT INTO `pratap_22`.`s` (`sno`, `sname`, `s_status`, `s_city`) VALUES ('s1', 'smith', '20', 'London');
+INSERT INTO `pratap_22`.`s` (`sno`, `sname`, `s_status`, `s_city`) VALUES ('s2', 'Jones', '10', 'Paris');
+INSERT INTO `pratap_22`.`s` (`sno`, `sname`, `s_status`, `s_city`) VALUES ('s3', 'Black', '30', 'Paris');
+INSERT INTO `pratap_22`.`s` (`sno`, `sname`, `s_status`, `s_city`) VALUES ('s4', 'Clark', '20', 'London');
+INSERT INTO `pratap_22`.`s` (`sno`, `sname`, `s_status`, `s_city`) VALUES ('s5', 'Adams', '30', 'Athens');
+
+
+
+"sp table"
+CREATE TABLE `pratap_22`.`sp` (
+  `sno` CHAR(3) NULL,
+  `pno` CHAR(3) NULL,
+  `qty` INT NOT NULL,
+  PRIMARY KEY (`sno`, `pno`));
+
+SQL script was successfully applied to the database.
+
